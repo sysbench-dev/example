@@ -21,6 +21,7 @@ positive integers of your choice):
 
 # Useful links
 
+- [SysbenchRocks](https://rocks.sysbench.io/) -- the repository of sysbench modules
 - [Lua Style Guide](https://github.com/luarocks/lua-style-guide) which is used by the LuaRocks project
 - [Numerical Computing Performance Guide](http://wiki.luajit.org/Numerical-Computing-Performance-Guide) --
   a guide on writing efficient LuaJIT code from Mike Pall, the LuaJIT creator
