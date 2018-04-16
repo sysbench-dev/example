@@ -6,19 +6,21 @@
 An example benchmark written using the sysbench Lua API.
 
 To install from local Git tree:
-  luarocks make --local
+
+    luarocks make --local
 
 To install from SysbenchRocks:
-  luarocks --server=rocks.sysbench.io --local install example
+
+    luarocks --server=rocks.sysbench.io --local install example
 
 Try running the following commands after installation (with N and M being
 positive integers of your choice):
 
-sysbench example help
-sysbench example --counters=N --threads=M prepare
-sysbench example --counters=N --threads=M run
-sysbench example --counters=N aggregate
-sysbench example cleanup
+    sysbench example help
+    sysbench example --counters=N --threads=M prepare
+    sysbench example --counters=N --threads=M run
+    sysbench example --counters=N aggregate
+    sysbench example cleanup
 --]]
 
 --[[
