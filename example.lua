@@ -51,9 +51,9 @@ sysbench.cmdline.ARG_LIST
 sysbench.cmdline.ARG_FILE
 
 Both opt_default and opt_type are optional. When opt_default is missing,
-sysbench will nto assign a default value to the option. When opt_type is
-missing, sysbench will try to infer option type from its default value, or
-assume string type, if the there is not default value.
+sysbench will not assign a default value to the option. When opt_type is
+missing, sysbench will try to infer the option type from its default value, or
+assume the string type, if the there is no default value.
 
 Option names may use dashes ("-") and underscores ("_") interchangeably -- they
 are both treated as equal characters by sysbench when it parses command line
