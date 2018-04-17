@@ -18,7 +18,8 @@ sysbench example cleanup
 }
 
 source = {
-  url = "git+https://github.com/sysbench-dev/example"
+  url = "https://github.com/sysbench-dev/example/archive/0.0.1.tar.gz",
+  file = "example-0.0.1.tar.gz"
 }
 
 dependencies = {
