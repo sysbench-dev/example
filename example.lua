@@ -62,7 +62,7 @@ contain dashes or start with numbers. That is, the following definitions are
 equivalent:
 
 my_opt = {"My option", "default"}
-"my-opt" = {"My option", "default"}
+["my-opt"] = {"My option", "default"}
 
 Values passed on the command line (or defaults) are available as
 sysbench.opt.opt_name for both general sysbench options and custom ones defined
